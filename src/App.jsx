@@ -9,9 +9,9 @@ export default function App() {
   const [isDark, setIsDark] = useState(false);
   return (
     <>
-      <button onClick={() => setTab("all")}>All</button>
-      <button onClick={() => setTab("active")}>Active</button>
-      <button onClick={() => setTab("completed")}>Completed</button>
+      <button>All</button>
+      <button>Active</button>
+      <button>Completed</button>
       <br />
       <label>
         <input
